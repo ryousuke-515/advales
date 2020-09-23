@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.header-logo {
+  float: left;
+  font-size: 40px;
+  padding: 15px 20px;
+}
+
+header {
+  background-color: #26d0c9;
+  color: white;
+  height: 100px;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 33px 25px;
+}
+
+.itho-hp-list {
+  text-decoration: none;
+}
+
+/* .itho-hp-list.no-color-change: link
+.itho-hp-list.no-color-change: :visited
+.itho-hp-list.no-color-change: :hover
+.itho-hp-list.no-color-change: :active {
+  color: white;
+} */
+
+.itho-hp-list:visited {
+  color: white;
+}
+
+.itho-hp-list:link {
+  color: white;
+}
+
+.itho-hp-list:hover {
+  color: white;
+}
+
+.itho-hp-list:active {
+  color: white;
+}
+
+.advales-hp-list {
+  text-decoration: none;
+}
+
+.advales-hp-list:visited {
+  color: white;
+}
+
+.advales-hp-list:link {
+  color: white;
+}
+
+.advales-hp-list:hover {
+  color: white;
+}
+
+.advales-hp-list:active {
+  color: white;
+}
+
+.category-list {
+  text-decoration: none;
+}
+
+.category-list:visited {
+  color: white;
+}
+
+.category-list:link {
+  color: white;
+}
+
+.category-list:hover {
+  color: white;
+}
+
+.category-list:active {
+  color: white;
+}
+
+.brand-list {
+  text-decoration: none;
+}
+
+.brand-list:visited {
+  color: white;
+}
+
+.brand-list:link {
+  color: white;
+}
+
+.brand-list:hover {
+  color: white;
+}
+
+.brand-list:active {
+  color: white;
+}
+
+.contact-list {
+  text-decoration: none;
+}
+
+.contact-list:visited {
+  color: white;
+}
+
+.contact-list:link {
+  color: white;
+}
+
+.contact-list:hover {
+  color: white;
+}
+
+.contact-list:active {
+  color: white;
+}
+
