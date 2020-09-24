@@ -9,6 +9,9 @@
       <li><%= link_to 'カテゴリー', '#', class: "category-list"%></li>
       <li><%= link_to 'ブランド', "#", class: "brand-list" %></li>
       <li><%= link_to 'お問い合わせ', "#", class: "contact-list" %></li>
+      
+      <%# 店主しか出品できないように条件分岐を記述する %>
+      <li><%= link_to '出品', "#", class: "contact-list" %></li>
     </ul>
   </div>
 </header>   
