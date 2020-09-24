@@ -16,7 +16,8 @@ header {
 .header-list li {
   list-style: none;
   float: left;
-  padding: 33px 25px;
+  padding: 33px 35px;
+  /* justify-content: center; */
 }
 
 .itho-hp-list {

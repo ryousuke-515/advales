@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  width: 100vw;
+  padding: 1vh 0;
+  color: white;
+  background-color: #aaaaaa;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 40px;
+  margin-left: 0px;
+  padding: 15px 20px;
+}
+
+.advales-contents {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+.advales-details {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.footer-content-head {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: white;
+  font-size: 12px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer-link:visited {
+  color: white;
+}
+
+.footer-link:link {
+  color: white;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-link:active {
+  color: white;
+}
