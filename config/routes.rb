@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get 'top/index'
  root to: "top#index"
- resources :top, only: [:new,]
+ resources :top, only: [:new, :create]
 end
