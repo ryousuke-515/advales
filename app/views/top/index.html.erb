@@ -4,7 +4,10 @@
 <%= render "shared/header" %>
 
 <div class="items-listing">
+
+<%# 店主しか出品できないように条件分岐を記述する %>
   <%= link_to '出品', new_top_path %>
+
 </div>
 
 <div class="item-contents">
