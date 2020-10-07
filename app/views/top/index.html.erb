@@ -3,6 +3,13 @@
 
 <%= render "shared/header" %>
 
+<div class="items-listing">
+
+<%# 店主しか出品できないように条件分岐を記述する %>
+  <%= link_to '出品', new_top_path %>
+
+</div>
+
 <div class="item-contents">
   <h2 class='title'>ピックアップカテゴリー</h2>
   <%= link_to '新商品', "#", class: "subtitle" %>
@@ -10,7 +17,7 @@
   <ul class="item-lists">
   
   <%# 商品のインスタンス変数になにか入っている場合、中身のすべてを展開できるようにする %>
-  
+
     <li class="list">
    
     <%# トップページから購入ページへ遷移する %>
